@@ -1,0 +1,16 @@
+@media screen and (max-width: 1250px) {
+    .wrapper {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+   h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,46 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.wrapper {
+    max-width: 88%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/**********main***********/
+#main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#main .wrapper {
+    display: flex;
+}
+
+#content {
+    min-width: 50%;
+    max-width: 50%;
+}
+#content h1 {
+    margin: 0;
+    padding-top: 20%;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    color: yellow;
+}
+
+#description {
+    font-size: 20px;
+    color: aliceblue;
+}
